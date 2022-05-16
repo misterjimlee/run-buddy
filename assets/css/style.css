@@ -70,11 +70,6 @@ section {
 }
 
 /* start hero styling */
-h3 {
-    font-size: 30px;
-    margin: 0;
-}
-
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -98,6 +93,11 @@ h3 {
     border-width: 3px;
     border-color: #024e76;
     The long way to do a border*/
+}
+
+.hero-form h3 {
+    font-size: 30px;
+    margin: 0;
 }
 
 .hero-form p {
